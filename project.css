@@ -1,0 +1,617 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.nav {
+    background-color: #81d4fa !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+nav ul li .nav-link {
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.nav ul li:hover {
+    background-color: #ffccbc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-left: 5px;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #d2dae2;
+}
+
+header h1 {
+    font-weight: 600;
+}
+.img_logo{
+    width: 80px;
+    height: 80px;
+}
+
+/*  settings for main screen */
+
+.main-screen {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 100px;
+}
+
+.main-screen h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box1 {
+    background-color: #ffccbc;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.box1:hover{
+    background-color: #b3e5fc;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    box-shadow: 0 4px  4px  rgba(0, 0, 0, .1),
+    0 1px  6px  rgba(0, 0, 0, .05),
+    0 8px  8px  rgba(0, 0, 0, .1), 
+    0 16px 16px rgba(0, 0, 0, .1), 
+    8px 32px 32px rgba(0, 0, 0, .15), 
+    8px 64px 64px rgba(0, 0, 0, .15);
+}
+.box1 .btn {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #f5f6fa;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px inset;
+    animation: 0.5s;
+    -webkit-animation: 0.5s;
+}
+
+.box1 .btn a {
+    font-weight: 600;
+    color: black !important;
+}
+
+.box1 .btn:hover {
+    background-color:#ced6e0 ;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;}
+
+.box1 a:hover {
+    color: white !important;
+}
+
+.boxx2 {
+    background-color: #81d4fa;
+}
+
+.box1 .btn a {
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+ /*  START SETTINGS FORM*/ 
+ .main-screen .form_info{
+    /*border: 2px solid red;
+    */background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+}
+.main-screen .form_info:hover{
+    box-shadow: 0 4px  4px  rgba(0, 0, 0, .1),
+    0 1px  6px  rgba(0, 0, 0, .05),
+    0 8px  8px  rgba(0, 0, 0, .1), 
+    0 16px 16px rgba(0, 0, 0, .1), 
+    8px 32px 32px rgba(0, 0, 0, .15), 
+    8px 64px 64px rgba(0, 0, 0, .15);
+}
+.main-screen .form_info .form-group input{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
+}
+.main-screen .form_info .form-group input:hover{
+    border: 2PX solid RED;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: blue !important;
+    font-size: 1.5em;
+    padding-left: 10px; 
+    text-align: right;         
+
+}
+
+.main-screen .form_info .form-group button{
+   
+    background-color: #f44336;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: white;
+}
+.main-screen .form_info .form-group button:hover{
+    background-color: #ff4757;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    border: none;
+    animation: 0.5s;
+}
+ /*  END SETTINGS FORM*/ 
+
+/*  اعدادات صفحة درجة حرارة الحاضنة*/
+.body_baby{
+    background-color: #ECEFF1;
+}
+.degre_tem .dispay_deg {
+    padding: 30px;
+}
+
+.degre_tem .dispay_deg span {
+    font-size: 26px;
+    font-weight: 500;
+    color: red;
+}
+
+.degre_tem .box1_room {
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.degre_tem .box1_room:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #90CAF9;
+}
+
+/*buttons in page  incubator temperature */
+
+.degre_tem {
+    width: 100%;
+ 
+}
+
+.degre_tem .text_main,
+.btn_save {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.degre_tem .btn_main {
+    background-color: #3D5AFE;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.degre_tem .btn_main_icon{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    background-color: white !important;
+}
+.degre_tem .btn_main_icon:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+.degre_tem .btn_main:hover
+ {
+    background-color: #54a0ff;
+    color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: black !important;
+}
+
+.degre_tem .btn_save {
+    background-color: #ff3838;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.degre_tem .btn_save:hover {
+    background-color: #ff4d4d;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: black !important;
+}
+
+
+/*  اعدادات صفحة درجة حرارة 'طفل'*/
+
+.body_baby {
+    background-color: #ECEFF1;
+}
+
+.baby_tem .dispay_deg {
+    padding: 30px;
+}
+.baby_tem  .btn_main_icon_baby{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.baby_tem  .btn_main_icon_baby:hover{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.baby_tem .dispay_deg span {
+    font-size: 26px;
+    font-weight: 500;
+    color: red;
+}
+
+.baby_tem .box1_baby {
+    background-color:#b2ebf2 ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.baby_tem .box1_baby:hover{
+    background-color: #f3e5f5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.baby_tem .text_main_baby,
+.btn_save_baby {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.baby_tem .btn_main_baby {
+    background-color: #3D5AFE;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.baby_tem .btn_main_baby:hover
+{
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: black !important;
+}
+
+.baby_tem .btn_save_baby {
+    background-color: #ff3838;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.baby_tem .btn_save_baby:hover {
+    background-color: #ff4d4d;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: black !important;
+}
+
+
+/*  اعدادات صفحة درجة حرارة 'نسبة الرطوبة'*/
+
+.body_humd {
+    background-color: white;
+}
+
+.humd_tem .dispay_deg {
+    padding: 30px;
+}
+
+.humd_tem .dispay_deg span {
+    font-size: 26px;
+    font-weight: 500;
+    color: red ;
+}
+.humd_tem .btn_main_icon_humd{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+}
+.humd_tem .btn_main_icon_humd:hover{
+    background-color: white;
+}
+
+.humd_tem .box1_humd {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.humd_tem .box1_humd:hover{
+    background-color: #b2ebf2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.humd_tem .text_main_humd,
+.btn_save_humd {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.humd_tem .btn_main_humd {
+    background-color: #1e90ff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.humd_tem .btn_main_humd:hover {
+    background-color: #54a0ff;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.humd_tem .btn_save_humd {
+    background-color: #ff3838;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.humd_tem .btn_save_humd:hover {
+    background-color: #ff4d4d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+/*  اعدادات صفحة  لوحة درجة حرارة ' '*/
+
+
+.body_display_1{
+    background-color: #eceff1;
+    line-height: 1.5;
+   /* font-size: 1.5rem;*/
+    font-weight: 600;
+    
+}
+.header_dis{
+    margin-top: -20px;
+    background-color: #81d4fa;
+}
+ header h1{
+    /*color: red;*/
+    
+    font-size: 30px;
+}
+.display_1 .dis_box{
+    display: flex;
+    background-color: #fafafa;
+    display: block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.display_1 .dis_box h1{
+    color: black;
+    font-weight: 400;
+    font-size: 37px;
+}
+.display_1 .dis_box .title , .tit_2{
+    font-size: 25px;
+    color: red;
+    font-weight: 500;
+}
+.display_1 .dis_box  span{
+    color: white;
+    background-color: red;
+    padding: 0px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.display_1 .dis_box:hover{
+    background-color: #81d4fa;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
+}
+.display_1 .dis_btn{
+    padding: 5px 20px;
+    font-size:2rem;
+    font-weight: 800;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.display_1 .dis_btn:hover{
+    background-color: #81d4fa;
+    outline: none;
+    border: none;
+    transition: all 0.6;
+    -webkit-transition: all 0.6;
+    -moz-transition: all 0.6;
+    -ms-transition: all 0.6;
+    -o-transition: all 0.6;
+    color: black;
+    padding: 6px 21px;
+
+}
+
+
+/* CONNECT US */
+
+.container-fluid {
+    background-color: #222569
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #0080ff;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media(min-width:568px) {
+    .container-fluid {
+        margin: 100px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        margin: 10px 10px;
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .pad {
+        padding-top: 20px
+    }
+}
+
